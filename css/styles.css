@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui, sans-serif;
+}
+body {
+    background-color: #a5d1ff;
+}
+h1 {
+    text-align: center;
+    color: rgb(4, 5, 107);
+    text-shadow: 4px 4px 0px #3f7fbf;
+}
+h2 {
+    text-align: center;
+    margin-top: 2rem;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 320px;
+    background-color: #007bff8c;
+    border-radius: 0.5rem;
+    border: 2px solid #0056b3;
+    margin: 0 auto;
+    padding: 2rem 0 1rem 0;
+}
+.form-group {
+    margin-bottom: 15px;
+}
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: white;
+    font-size: small;
+}
+.form-group input,
+.form-group select,
+.form-group textarea {
+    width: 100%;
+    min-width: 260px;
+    padding: 5px;
+}
+.btn {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 0px;
+    width: 110px;
+    text-decoration: none;
+    border-radius: 5px;
+    border: 2px solid #0056b3;
+    font-size: small;
+    margin-left: 58%;
+}
+.btn:hover {
+    background-color: #0056b3;
+}
+.infoContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+table {
+    border-collapse: collapse;
+    font-size: 0.8rem;
+    width: 100%;
+    max-width: 600px;
+    margin-top: 20px;
+}
+th,
+td {
+    border: 1px solid #0068d6;
+    padding: 10px 20px;
+    text-align: center;
+}
+th {
+    background-color: #007bff8c;
+    color: white;
+    font-weight: bold;
+}
+tr:nth-child(even) td {
+    background-color: white;
+}
+
+tr:nth-child(odd) td {
+    background-color: #f5f5f5;
+}
+.btn-delete {
+    background-color: transparent;
+    border: none;
+    font-size: larger;
+    color: black;
+    text-align: center;
+    margin-left: 0;
+    padding: 0;
+    margin-left: 0;
+    width: 2rem;
+}
+.btn-delete:hover {
+    background-color: transparent;
+    color: red;
+}
+@media only screen and (max-width: 600px) {
+    th, td {
+        padding: 8px 0;
+        font-size: 0.7rem; 
+    }
+    table {
+        width: 95%;
+    }
+}
